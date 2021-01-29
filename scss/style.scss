@@ -611,6 +611,31 @@ textarea {
 	letter-spacing: 2px;
 }
 
+/* FIRST OFFER */
+.first-offer{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 45%;
+	left: 200px;
+	transform: translateY(-50%);
+	color: white;
+}
+
+.btn-offer{
+	padding: 10px 50px;
+	font-size: 20px;
+	background-color: #fff;
+	border-radius: 1px;
+	display: inline-block;
+
+	&:hover{
+		color: white;
+		text-decoration: none;
+		background-color: #75dab4;
+	}
+}
+
 /* SOCIAL MEDIA */
 .social-media {
 	width: 100%;
@@ -2107,7 +2132,7 @@ textarea {
 		border-right: 1px solid #eee;
 		border-bottom: 1px solid #eee;
 		li {
-			width: 33.33333%;
+			width: 25%;
 			margin: 0;
 			padding: 40px;
 			list-style: none;
@@ -2576,6 +2601,23 @@ textarea {
 		width: 100%;
 		display: block;
 		margin-top: 5px;
+	}
+
+	.first-offer{
+		left: 80px;
+		width: 75%;
+
+		h1{
+			font-size: 20px;
+		}
+
+		h3{
+			font-size: 18px;
+		}
+
+		p{
+			font-size: 14px;
+		}
 	}
 }
 
